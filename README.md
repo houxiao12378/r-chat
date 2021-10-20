@@ -40,12 +40,35 @@
 - 无需存储
 
 ## 运行项目
-### 本地运行
+### 开发工具（IDEA/Eclipse）运行
 - 将项目拉取到本地后，使用使用MAVEN命令进行编译安装(安装过程确保网络畅通)
 ```
 maven clean install
 ```
-- 找到
+- 项目中找到`RChatApplication.java`，在开发工具中找到main函数即可启动，启动成功后，日志如下：
+```
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.5)
+
+2021-10-20 23:46:03.325  INFO 20605 --- [           main] com.msgqer.rchat.RChatApplication        : Starting RChatApplication using Java 1.8.0_181 on keaizhuzhudeAir with PID 20605 (/Users/xieyu/git/r-chat/target/classes started by keaizhuzhu in /Users/xieyu/git/r-chat)
+2021-10-20 23:46:03.335  INFO 20605 --- [           main] com.msgqer.rchat.RChatApplication        : No active profile set, falling back to default profiles: default
+2021-10-20 23:46:06.942  INFO 20605 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7788 (http)
+2021-10-20 23:46:06.990  INFO 20605 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-20 23:46:06.990  INFO 20605 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-20 23:46:07.211  INFO 20605 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-20 23:46:07.211  INFO 20605 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3714 ms
+2021-10-20 23:46:08.048  INFO 20605 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-20 23:46:08.311  WARN 20605 --- [           main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-10-20 23:46:08.557  INFO 20605 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7788 (http) with context path ''
+2021-10-20 23:46:08.578  INFO 20605 --- [           main] com.msgqer.rchat.RChatApplication        : Started RChatApplication in 7.323 seconds (JVM running for 9.671)
+
+```
 
 
 
