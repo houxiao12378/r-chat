@@ -168,17 +168,22 @@ xxx加入群聊、xxx退出群聊、文明聊天提示等都属于这种类型�
 
 以上是我的一些随想，扩展下让代码更风骚~
 
-## 作者
-可爱猪猪（keaizhuzhu、Yesterday都是我），就职阿里、京东的码农，发布面试小抄，全网下载量几千《java面试怪圈内卷手册》。
-[面试怪圈官网](http://www.mianshiguaiquan.com)上传了几百份程序员梦寐以求的各种学习资料。
-![image](https://user-images.githubusercontent.com/7221514/138284864-68d1d89c-4c61-41bf-a24c-63d99a58a055.png)
+## 写在最后
+该项目在哄小朋友睡着之后，历时4个小时，肝到下半夜两点完成，若有不足之处，可以留言反馈，谢谢~
 
-创办公众号「面试怪圈」，公众号中回复“交个朋友”，一起交流和改进：
+## 以下是我
+可爱猪猪（keaizhuzhu、Yesterday都是我）  
+就职阿里、京东的码农  
+发布面试小抄，全网下载量几千《java面试怪圈内卷手册》
+[面试怪圈官网](http://www.mianshiguaiquan.com)上传了几百份程序员梦寐以求的各种学习资料  
+
+![image](https://user-images.githubusercontent.com/7221514/138284864-68d1d89c-4c61-41bf-a24c-63d99a58a055.png) 
+
+创办公众号「`面试怪圈`」，可在公众号中回复“交个朋友”加我好友，一起交流和改进：  
 ![image](https://user-images.githubusercontent.com/7221514/138284178-c496aa5b-5987-4569-b593-ee978cd8597a.png)
 
 
 
 
 
-## 写在最后
-该项目在哄小朋友睡着之后，历时4个小时，肝到下半夜两点完成，若有不足之处，可以留言反馈，谢谢~
+
