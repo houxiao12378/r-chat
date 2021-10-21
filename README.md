@@ -83,4 +83,6 @@ maven clean install
 ### RChatSocketServer
 websocket服务端，封装了`onOpen`、`onClose`、`onMessage`、`onError`事件，用于接收建立链接、关闭链接、接收消息、错误事件。
 针对不同的事件进行不同的事件处理器：
-- onOpen事件
+- onOpen事件处理
+1. 
+
