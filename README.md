@@ -111,10 +111,18 @@ websocket服务端，封装了`onOpen`、`onClose`、`onMessage`、`onError`事�
 ### CommunicationEvent.java
 该类为客户端和服务端通讯的核心协议类，任何通讯都遵守该协议。主要有`type`和`data`两个重要属性：
 - type为支持的协议类，该类型决定data的泛型的类型
-type目前支持3中：
-1. 普通消息
+type目前支持3中，可参考类`EnumCommunicationEventType`：
+1. 普通消息  
 即聊天过程的消息内容
-2. 系统消息
+2. 系统消息  
+xxx加入群聊、xxx退出群聊、文明聊天提示等都属于这种类型。
+3. 在线人数
+该事件通知在线的人数，用于实时刷新客户端右上角的在线人数提醒。
+
+- data为泛型，T由type决定，即事件的具体传输内容
+
+
+
 
 
 ## 注意事项
