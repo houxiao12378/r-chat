@@ -74,6 +74,19 @@ maven clean install
 
 ```
 
+### Linux后台运行
+
+- 使用maven命令`maven clean install`编译安装后，在target目录下找到以下jar包： 
+r-chat-0.0.1-SNAPSHOT.jar
+- 拷贝到目标服务器，输入以下命令启动：
+```
+nohup java -jar r-chat-0.0.1-SNAPSHOT.jar &
+```
+- 启动成功后，会看到和开发工具（IDEA/Eclipse）运行一样的启动成功日志
+
+### 访问项目
+浏览器输入:http://ip:7788即可访问
+
 
 ## 工程目录介绍
 ### 后端目录
