@@ -121,6 +121,14 @@ xxx加入群聊、xxx退出群聊、文明聊天提示等都属于这种类型�
 
 - data为泛型，T由type决定，即事件的具体传输内容
 
+### ClientManager.java
+该类为客户端的管理器，由`onOpen`和`onClose`事件来添加和移除客户端对象，由此可以获知：在线人数就是该管理器中维护的客户端个数。
+开发以下4个方法，用于管理客户端：
+- addClient:添加客户端
+- removeClient:移除客户端
+- get:根据会话Id获取客户端对象
+- getConnectedClients:获取当前在线的客户端对象
+
 
 
 
