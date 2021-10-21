@@ -72,9 +72,12 @@ maven clean install
 
 
 ## 工程目录介绍
-
+### 后端目录
 ![image](https://user-images.githubusercontent.com/7221514/138259846-529a932c-61b7-4df2-a37b-be6db8e16d59.png)
+### 前端目录
+![image](https://user-images.githubusercontent.com/7221514/138261874-2d34964a-1ce2-4c0d-9a42-d73309db4e55.png)
 
+                 
 
 
 
