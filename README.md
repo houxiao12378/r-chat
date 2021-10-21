@@ -104,3 +104,23 @@ websocket服务端，封装了`onOpen`、`onClose`、`onMessage`、`onError`事�
 - onMessage事件处理
 1. 根据会话的Id获取当前退出的客户端对象
 2. 将接收的客户端消息广播给所有的客户端
+
+- onError事件处理
+暂无
+
+### CommunicationEvent.java
+该类为客户端和服务端通讯的核心协议类，任何通讯都遵守该协议。主要有`type`和`data`两个重要属性：
+- type为支持的协议类，该类型决定data的泛型的类型
+type目前支持3中：
+1. 普通消息
+即聊天过程的消息内容
+2. 系统消息
+
+
+## 注意事项
+- 发送消息的方法调用
+
+
+
+
+
